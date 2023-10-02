@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+}
+
+#box{
+   text-align: center;
+    border-radius: 10px;
+    border:  5px solid red;
+    width: 360px;
+}
+
+.tabs{  
+    height: 50px;
+    padding-right: 5px;
+    padding-left: 3px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1px;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.tab{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.content{
+    background-image: url('wp9852766-the-matrix-resurrections-wallpapers.jpg');
+    width: 360px;
+    height: 400px;
+    color: white;
+    text-decoration-color: black;
+    
+}
+
+#tab1{
+    background-color: white;
+    border-bottom: none;
+}
+
+#tab2{
+    background-color: #fff6a3;
+}
+#tab3{
+    background-color: #fff6a3;
+}
